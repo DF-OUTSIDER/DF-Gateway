@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: DF-Gateway
+  profiles:
+    active: local
+
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:db/df-gateway.db
+    #linux服务器
+    #url: jdbc:sqlite://home/cqfy/project/OSSDATABASE/oss.db
+    username:
+    password:
+    ### 连接池配置
+    druid:
+      initial-size: 2
+      max-active: 100
+      min-idle: 30
+      max-wait: 40
+      validation-query: SELECT 1
+
+--- #################### 接口文档配置 ####################
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui
+
+gateway:
+  base-package: com.easyusing
+
+# debug
+debug: true
