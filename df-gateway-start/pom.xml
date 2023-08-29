@@ -19,16 +19,6 @@
     <dependencies>
         <dependency>
             <groupId>com.easyusing</groupId>
-            <artifactId>gateway-system-biz</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.easyusing</groupId>
-            <artifactId>kd-cnc-biz</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.easyusing</groupId>
             <artifactId>opcua-server-biz</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
