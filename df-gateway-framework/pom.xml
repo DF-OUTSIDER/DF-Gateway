@@ -13,7 +13,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>gateway-common</module>
-        <module>gateway-job</module>
         <module>gateway-cache</module>
     </modules>
     

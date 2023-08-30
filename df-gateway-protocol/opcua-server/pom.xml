@@ -12,7 +12,6 @@
     <artifactId>opcua-server</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>opcua-server-api</module>
         <module>opcua-server-biz</module>
     </modules>
     
